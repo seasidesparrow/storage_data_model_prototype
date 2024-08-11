@@ -1,0 +1,20 @@
+{
+  "title": "Abstract",
+  "description": "Abstract of document",
+  "type": "object",
+  "properties": {
+    "textEnglish": {
+      "type": "string"
+    },
+    "textNative": {
+      "type": "string"
+    },
+    "langNative": {
+      "type": "string"
+    },
+    "origin": {
+      "description": "Internal UUID7 of source document",
+      "type": "string"
+    }
+  }
+}

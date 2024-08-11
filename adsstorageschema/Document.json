@@ -1,0 +1,188 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Document",
+  "description": "Data schema for Honeycomb record storage",
+  "type": "object",
+  "properties": {
+    "recordData": {
+      "$ref": "./RecordData.json"
+    },
+    "relatedTo": {
+      "type": "array",
+      "description": "Array of RelatedTo.json objects",
+      "items": {
+        "$ref": "./RelatedTo.json"
+      }
+    },
+    "doctype": {
+      "$ref": "./DocType.json"
+    },
+    "title": {
+      "$ref": "./Title.json"
+    },
+    "subtitle": {
+      "$ref": "./Title.json"
+    },
+    "authors": {
+      "description": "Author list",
+      "items": {
+        "$ref": "./Authors.json"
+      }
+    },
+    "otherContributor": {
+      "type": "array",
+      "description": "Array of Contrib/role pairs",
+      "items": {
+        "$ref": "./OtherContrib.json"
+      }
+    },
+    "abstract": {
+      "$ref": "./Abstract.json"
+    },
+    "persistentIDs": {
+      "type": "array",
+      "description": "Array of PersistentID.json objects",
+      "items": {
+        "$ref": "./PersistentID.json"
+      }
+    },
+    "pubDate": {
+      "$ref": "./PubDates.json"
+    },
+    "publication": {
+      "$ref": "./Publication.json"
+    },
+    "pagination": {
+      "$ref": "./Pagination.json"
+    },
+    "acknowledgements": {
+      "type": "string",
+      "description": "Acknowledgements, if fielded separately from body"
+    },
+    "dataLinks": {
+      "type": "array",
+      "description": "Array of DataLink.json objects",
+      "items": {
+        "$ref": "./DataLink.json"
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Array of Keyword.json objects",
+      "items": {
+        "$ref": "./Keyword.json"
+      }
+    },
+    "copyright": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "statement": {
+          "type": "string"
+        }
+      }
+    },
+    "openAccess": {
+      "$ref": "./OpenAccess.json"
+    },
+    "funding": {
+      "type": "array",
+      "description": "Array of Funder.json objects",
+      "items": {
+        "$ref": "./Funder.json"
+      }
+    },
+    "astronomicalObjects": {
+      "type": "array",
+      "description": "List of astronomical objects in free text format",
+      "items": {
+        "type": "string"
+      }
+    },
+    "comments": {
+      "type": "array",
+      "description": "Comments from authors, etc.",
+      "items": {
+        "$ref": "./Comment.json"
+      }
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "recordData",
+    "title",
+    "pubDate",
+    "publication",
+    "DocType"
+  ],
+  "additionalProperties": false
+}
+
+
+##########INGEST SCHEMA#################
+{
+    {[....]
+    },
+    "editorialHistory": {
+      "$ref": "./EdHist.json"
+    },
+    "publisherIDs": {
+      "type": "array",
+      "description": "Array of PublisherID.json objects",
+      "items": {
+        "$ref": "./PublisherID.json"
+      }
+    },
+    "fulltext": {
+      "type": "object",
+      "description": "Contains the body of the fulltext document, and its language",
+      "$comment": "Body is free format and could (for example) contain the entire file",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "description": "List of references in free text format",
+      "items": {
+        "type": "string"
+      }
+    },
+    "backmatter": {
+      "type": "array",
+      "description": "Appendices, Supplementary material.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "backType": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "esources": {
+      "type": "array",
+      "description": "Array of ESource.json objects",
+      "items": {
+        "$ref": "./ESource.json"
+      }
+    },
+    "pubnote": {
+      "type": "string"
+    },
+  },

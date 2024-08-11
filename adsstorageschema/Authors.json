@@ -1,0 +1,17 @@
+{
+  "title": "Authors",
+  "description": "Author contributors",
+  "type": "object",
+  "properties": {
+    "authorList":
+      "type": "array",
+      "items": {
+        "$ref": "./Contrib.json"
+      }
+    },
+    "origin": {
+      "description": "Internal UUID7 of source document",
+      "type": "string"
+    }
+  }
+}

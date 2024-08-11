@@ -1,0 +1,39 @@
+{
+  "title": "RecordData",
+  "description": "Data schema for storing merged records in Honeycomb",
+  "type": "object",
+  "properties": {
+    "createdTime": {
+      "description": "Timestamp for when the merged record was first generated",
+      "type": "string"
+    },
+    "updatedTime": {
+      "description": "Timestamp for the most recent merger that generated a different record.",
+      "type": "string"
+    },
+    "recordUUID": {
+      "description": "Internal UUID7 for the record",
+      "type": "string"
+    },
+    "publicIdentifier": {
+      "description": "SciX identifier for the record",
+      "type": "string"
+    },
+    "ADSBibcode": {
+      "description": "Canonical ADS Bibcode for the record, if any",
+      "type": "string"
+    },
+    "mergerRuleVersion": {
+      "description": "Ruleset version for merger.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "createdTime",
+    "augmentedTime",
+    "recordUUID",
+    "publicIdentifier",
+    "mergerRuleVersion"
+  ],
+  "additionalProperties": false
+}

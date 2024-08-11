@@ -1,0 +1,41 @@
+{
+  "title": "DocType",
+  "description": "SciX-defined document types",
+  "type": "object",
+  "properties": {
+    "doctype": {
+      "type": "string",
+      "description": "SciX-defined doctypes",
+      "enum": [
+        "article",
+        "eprint",
+        "phdthesis",
+        "mastersthesis",
+        "book",
+        "inbook",
+        "proceedings",
+        "inproceedings",
+        "software",
+        "talk",
+        "abstract",
+        "proposal",
+        "pressrelease",
+        "circular",
+        "newsletter",
+        "catalog",
+        "misc",
+        "techreport",
+        "nonarticle",
+        "dataset"
+      ]
+    },
+    "origin": {
+      "description": "Internal UUID7 of source document",
+      "type": "string"
+    }
+  },
+  "required": [
+    "doctype",
+    "origin"
+  ]
+}
