@@ -57,7 +57,7 @@
     },
     "acknowledgements": {
       "type": "string",
-      "description": "Acknowledgements, if fielded separately from body"
+      "description": "Fielded Acknowledgements from fulltext body"
     },
     "dataLinks": {
       "type": "array",

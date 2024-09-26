@@ -1,0 +1,16 @@
+{
+  "title": "DoiType",
+  "description": "Holds an individual DOI, along with a boolean to indicate whether it is the primary DOI",
+  "type": "object",
+  "properties": {
+    "DOI": {
+      "$comment": "Borrowed from arxiv spec https://github.com/arXiv/arxiv-canonical/blob/develop/schema-extended/arxiv-extended.json",
+      "type": "string",
+      "pattern": "^10\\.\\d+(\\.\\d+)?/\\S+$",
+      "minLength": 1
+    },
+    "primary": {
+      "type": "boolean"
+    }
+  }
+}

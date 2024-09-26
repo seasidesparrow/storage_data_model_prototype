@@ -1,0 +1,33 @@
+{
+  "title": "PersistentID",
+  "description": "Holds one or more persistent identifiers",
+  "type": "object",
+  "properties": {
+    "Crossref": {
+      "type": "string"
+    },
+    "ISBN": {
+      "type": "array",
+      "items": {
+         "$ref": "./IsbnType.json"
+      }
+    },
+    "DOI": {
+      "type": "array",
+      "items": {
+        "$ref": "./DoiType.json"
+      }
+    },
+    "preprint": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
