@@ -1,0 +1,47 @@
+{
+  "title": "Affiliations",
+  "description": "Data schema for Affiliation data",
+  "type": "object",
+  "properties": {
+    "aff": {
+      "type": "array",
+      "description": "Raw affiliation strings from canonical",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_uuid": {
+      "type": "string",
+      "description": "Source record UUID for aff"
+    },
+    "aff_abbrev": {
+      "type": "array",
+      "description": "Canonical abbrevs for aff if available",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_canonical": {
+      "type": "array",
+      "description": "Canonical names for aff if available",
+      "items": {
+        "type": "string"
+      }
+    }, 
+    "aff_id": {
+      "type": "array",
+      "description": "Canonical ids for aff if available",
+      "items": {
+        "type": "string"
+      }
+    }, 
+    "institution": {
+      "type": "array",
+      "description": "Faceted names for aff if available",
+      "items": {
+        "type": "string"
+      }
+    } 
+  },
+  "additionalProperties": false
+}

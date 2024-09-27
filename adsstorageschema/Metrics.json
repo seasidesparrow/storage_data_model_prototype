@@ -1,0 +1,8 @@
+{
+  "title": "Metrics",
+  "description": "Data schema for metrics column storage",
+  "type": "object",
+  "properties": {
+  },
+  "additionalProperties": false
+}

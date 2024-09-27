@@ -1,0 +1,36 @@
+{
+  "title": "Funding",
+  "description": "Data schema for funding data",
+  "type": "object",
+  "properties": {
+    "funding": {
+      "type": "array",
+      "description": "Array of Funder objects",
+      "items": {
+        "$ref": "./Funder.json"
+      }
+    },
+    "funding_uuid": {
+      "type": "array",
+      "description": "Source record UUIDs for funding",
+      "items": {
+        "type": "string"
+      }
+    },
+    "funder_facet": {
+      "type": "array",
+      "description": "Faceted names for funding agencies if available",
+      "items": {
+        "type": "string"
+      }
+    },
+    "awardid_facet": {
+      "type": "array",
+      "description": "Faceted funding/grant IDs if available",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

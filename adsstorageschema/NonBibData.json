@@ -1,0 +1,8 @@
+{
+  "title": "NonBibData",
+  "description": "Data schema for nonbib_data column storage",
+  "type": "object",
+  "properties": {
+  },
+  "additionalProperties": false
+}

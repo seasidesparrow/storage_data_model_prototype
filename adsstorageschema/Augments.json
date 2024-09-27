@@ -1,0 +1,14 @@
+{
+  "title": "Augments",
+  "description": "Data schema for augments record storage",
+  "type": "object",
+  "properties": {
+    "affils": {
+      "$ref": "./Affiliations.json"
+    },
+    "funding": {
+      "$ref": "./Funding.json"
+    }
+  },
+  "additionalProperties": false
+}

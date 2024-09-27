@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Document",
+  "description": "Data schema for Honeycomb record storage",
+  "type": "object",
+  "properties": {
+
+    "$comment": "Record status, IDs and primary keys",
+    "id": {
+      "type": "integer",
+      "description": "postgres primary key for the record (integer)"
+    },
+    "honeycomb_uuid": {
+      "type": "string",
+      "description": "Honeycomb Record UUID"
+    },
+    "status": {
+      "type": "string",
+      "description": "Solr index status"
+    },
+    "bibcode": {
+      "type": "string",
+      "description": "ADS Classic bibliographic code"
+    },
+    "bibcode_uuid": {
+      "type": "string",
+      "description": "Source record UUID for bibcode"
+    },
+    "scix_id": {
+      "type": "string",
+      "description": "SciX public identifier"
+    },
+    "scix_id_uuid": {
+      "type": "string",
+      "description": "Source record UUID for scix_id"
+    },
+    "merger_ruleset": {
+      "type": "string",
+      "description": "Version ID of data piece merger rules"
+    },
+
+    "$comment": "bib_data column",
+    "bib_data": {
+      "$ref": "./BibData.json"
+    },
+
+    "$comment": "augments column",
+    "augments": {
+      "$ref": "./Augments.json"
+    },
+
+    "$comment": "fulltext column",
+    "fulltext": {
+      "$ref": "./Fulltext.json"
+    },
+
+    "$comment": "nonbib_data column",
+    "nonbib_data": {
+      "$ref": "./NonBibData.json"
+    },
+
+    "$comment": "metrics column",
+    "metrics": {
+      "$ref": "./Metrics.json"
+    }
+  },
+  "required": [
+    "scix_id",
+    "honeycomb_uuid",
+    "bib_data"
+  ],
+  "additionalProperties": false
+}

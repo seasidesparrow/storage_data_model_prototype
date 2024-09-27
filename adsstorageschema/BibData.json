@@ -1,0 +1,329 @@
+{
+  "title": "BibData",
+  "description": "Data schema for bib_data column storage",
+  "type": "object",
+  "properties": {
+    "ack": {
+      "type": "string",
+      "description": "Acknowledgements field from fulltext body"
+    },
+    "ack_uuid": {
+      "type": "string",
+      "description": "Source record UUID for ack"
+    },
+    "abstract": {
+      "type": "string",
+      "description": "Abstract from canonical"
+    },
+    "abstract_uuid": {
+      "type": "string",
+      "description": "Source record UUID for abstract"
+    },
+    "alternate_bibcode": {
+      "type": "array",
+      "description": "List of classic alternate bibcodes",
+      "items": {
+         "type": "string"
+      }
+    },
+    "arxiv_class": {
+      "type": "array",
+      "description": "List of arXiv classes",
+      "items": {
+        "type": "string"
+      }
+    },
+    "author": {
+      "type": "array",
+      "description": "List of authors (Surname, Given name)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "author_uuid": {
+      "type": "string",
+      "description": "Source record UUID for author"
+    },
+    "native_author": {
+      "type": "array",
+      "description": "List of authors in their native language, if available",
+      "items": {
+        "type": "string"
+      }
+    },
+    "native_author_uuid": {
+      "type": "string",
+      "description": "Source record UUID for native_author"
+    },
+    "author_count": {
+      "type": "integer",
+      "description": "Length of author array"
+    },
+    "author_norm": {
+      "type": "array",
+      "description": "List of authors, normalized",
+      "items": {
+        "type": "string"
+      }
+    },
+    "orcid_pub": {
+      "type": "array",
+      "description": "ORCIDs of authors",
+      "items": {
+        "type": "string"
+      }
+    },
+    "orcid_pub_uuid": {
+      "type": "string",
+      "description": "Source record UUID for orcid_pub"
+    },
+    "bibstem": {
+      "type": "array",
+      "description": "List of bibstem and bibstem+volume",
+      "items": {
+        "type": "string"
+      }
+    },
+    "copyright": {
+      "type": "string",
+      "description": "Copyright statement from publisher"
+    },
+    "copyright_uuid": {
+      "type": "string",
+      "description": "Source record UUID for copyright"
+    },
+    "database": {
+      "type": "array",
+      "description": "List of SciX collections assigned to this record",
+      "items": {
+        "type": "string"
+      }
+    },
+    "date": {
+      "type": "string",
+      "description": "Publication date timestamp"
+    },
+    "date_uuid": {
+      "type": "string",
+      "description": "Source UUID for date"
+    },
+    "doctype": {
+      "type": "string",
+      "description": "Document type of canonical record"
+    },
+    "doctype_uuid": {
+      "type": "string",
+      "description": "Source UUID for doctype"
+    },
+    "doctype_facet_heir": {
+      "type": "array",
+      "description": "Faceted document type",
+      "items" : {
+        "type": "string"
+      }
+    },
+    "doi": {
+      "type": "array",
+      "description": "DOIs describing the record and its pre-/offprints",
+      "items": {
+        "type": "string"
+      }
+    },
+    "eid": {
+      "type": "string",
+      "description": "Publisher electronic ID of article"
+    },
+    "eid_uuid": {
+      "type": "string",
+      "description": "Source UUID for eid"
+    },
+    "email": {
+      "type": "array",
+      "description": "List of author email addresses",
+      "items": {
+        "type": "string"
+      }
+    },
+    "email_uuid": {
+      "type": "array",
+      "description": "Source UUID for email"
+    },
+    "first_author": {
+      "type": "string",
+      "description": "First author name"
+    },
+    "first_author_norm": {
+      "type": "string",
+      "description": "First author name, normalized"
+    },
+    "first_author_native": {
+      "type": "string",
+      "description": "First author native name"
+    },
+    "identifier": {
+      "type": "array",
+      "description": "List of record identifiers for merged records",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issn": {
+      "type": "array",
+      "description": "List of publication ISSNs of canonical record",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issn_uuid": {
+      "type": "string",
+      "description": "Source UUID for issn"
+    },
+    "issue": {
+      "type": "string",
+      "description": "Publisher Issue Number/Letter of canonical record"
+    },
+    "issue_uuid": {
+      "type": "string",
+      "description": "Source UUID for issue"
+    },
+    "page": {
+      "type": "array",
+      "description": "List of first, last page numbers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "page_uuid": {
+      "type": "string",
+      "description": "Source UUID for page"
+    },
+    "page_count": {
+      "type": "integer",
+      "description": "Number of pages in the document"
+    },
+    "page_count_uuid": {
+      "type": "string",
+      "description": "Source UUID for page"
+    },
+    "volume": {
+      "type": "string",
+      "description": "Publisher Volume Number of canonical record"
+    },
+    "volume_uuid": {
+      "type": "string",
+      "description": "Source UUID for volume"
+    },
+    "title": {
+      "type": "array",
+      "description": "List of available titles",
+      "items": {
+        "type": "string"
+      }
+    },
+    "title_uuid": {
+      "type": "array",
+      "description": "Source UUIDs for title",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pubdate": {
+      "type": "string",
+      "description": "Publication date in YYYY-MM-DD format"
+    },
+    "pubdate_uuid": {
+      "type": "string",
+      "description": "Source UUID for pubdate"
+    },
+    "year": {
+      "type": "string",
+      "description": "Publication year"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Name of publisher for canonical record"
+    },
+    "publisher_uuid": {
+      "type": "string",
+      "description": "Source UUID for publisher"
+    },
+    "pub": {
+      "type": "string",
+      "description": "Name of publication of canonical record"
+    },
+    "pub_uuid": {
+      "type": "string",
+      "description": "Source UUID for pub"
+    },
+    "pub_raw": {
+      "type": "string",
+      "description": "Summary publication string (classic %J)"
+    },
+    "pub_raw_uuid": {
+      "type": "string",
+      "description": "Source UUID for pub_raw"
+    },
+    "pubnote": {
+      "type": "array",
+      "description": "Pubnotes from input documents",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pubnote_uuid": {
+      "type": "array",
+      "description": "Source UUIDs for pubnote",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyword": {
+      "type": "array",
+      "description": "All publisher supplied keywords",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyword_uuid": {
+      "type": "array",
+      "description": "Source UUIDs for keyword",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyword_schema": {
+      "type": "array",
+      "description": "Schema for all publisher supplied keywords",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyword_schema_uuid": {
+      "type": "array",
+      "description": "Source UUIDs for keyword_schema",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyword_norm": {
+      "type": "array",
+      "description": "Normalized version of keyword",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyword_facet": {
+      "type": "array",
+      "description": "Faceted version of keyword_norm",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "title",
+    "pub_raw",
+    "pubdate"
+  ],
+  "additionalProperties": false
+}
