@@ -35,6 +35,13 @@
         "type": "string"
       }
     }, 
+    "aff_facet_heir": {
+      "type": "array",
+      "description": "Facet heirarchy of canonical abbrevs if available",
+      "items": {
+        "type": "string"
+      }
+    },
     "institution": {
       "type": "array",
       "description": "Faceted names for aff if available",

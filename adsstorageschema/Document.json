@@ -43,25 +43,40 @@
     "bib_data": {
       "$ref": "./BibData.json"
     },
+    "bib_data_updated": {
+      "$ref": "./TimeStamp.json"
+    },
 
     "$comment": "augments column",
     "augments": {
       "$ref": "./Augments.json"
+    },
+    "augments_updated": {
+      "$ref": "./TimeStamp.json"
     },
 
     "$comment": "fulltext column",
     "fulltext": {
       "$ref": "./Fulltext.json"
     },
+    "fulltext_updated": {
+      "$ref": "./TimeStamp.json"
+    },
 
     "$comment": "nonbib_data column",
     "nonbib_data": {
       "$ref": "./NonBibData.json"
     },
+    "nonbib_data_updated": {
+      "$ref": "./TimeStamp.json"
+    },
 
     "$comment": "metrics column",
     "metrics": {
       "$ref": "./Metrics.json"
+    },
+    "metrics_updated": {
+      "$ref": "./TimeStamp.json"
     }
   },
   "required": [
