@@ -1,0 +1,28 @@
+{
+  "title": "MetricsNormRefData",
+  "description": "Data schema for metrics[rn_citation_data]",
+  "type": "object",
+  "properties": {
+    "auth_norm": {
+      "type": "number",
+      "description": "Author count normalization"
+    },
+    "scix_id": {
+      "type": "string",
+      "description": "SciX identifer of citing record"
+    },
+    "cityear": {
+      "type": "integer",
+      "description": "Publication year of citing record"
+    },
+    "pubyear": {
+      "type": "integer",
+      "description": "Publication year of this record"
+    },
+    "ref_norm": {
+      "type": "number",
+      "description": "Normalized citation score"
+    }
+  },
+  "additionalProperties": false
+}

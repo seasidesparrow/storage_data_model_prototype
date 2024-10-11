@@ -19,13 +19,6 @@
       "type": "string",
       "description": "Source record UUID for abstract"
     },
-    "alternate_bibcode": {
-      "type": "array",
-      "description": "List of classic alternate bibcodes",
-      "items": {
-         "type": "string"
-      }
-    },
     "arxiv_class": {
       "type": "array",
       "description": "List of arXiv classes",
@@ -43,6 +36,17 @@
     "author_uuid": {
       "type": "string",
       "description": "Source record UUID for author"
+    },
+    "author_rank": {
+      "type": "array",
+      "description": "List of integers signifying rank (1='first author')",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "author_rank_uuid": {
+      "type": "string",
+      "description": "Source record UUID for author_rank"
     },
     "native_author": {
       "type": "array",
@@ -66,6 +70,13 @@
         "type": "string"
       }
     },
+    "aff": {
+      "type": "array",
+      "description": "Raw affiliations per author, if available",
+      "items": {
+        "type": "string"
+      }
+    },
     "orcid_pub": {
       "type": "array",
       "description": "ORCIDs of authors",
@@ -77,7 +88,7 @@
       "type": "string",
       "description": "Source record UUID for orcid_pub"
     },
-    "bibstem": {
+    "classic_bibstem": {
       "type": "array",
       "description": "List of bibstem and bibstem+volume",
       "items": {
@@ -85,8 +96,11 @@
       }
     },
     "copyright": {
-      "type": "string",
-      "description": "Copyright statement from publisher"
+      "type": "array",
+      "description": "List of Copyright statements from publisher",
+      "items": {
+        "type": "string"
+      }
     },
     "copyright_uuid": {
       "type": "string",
@@ -115,7 +129,7 @@
       "type": "string",
       "description": "Source UUID for doctype"
     },
-    "doctype_facet_heir": {
+    "doctype_facet_hier": {
       "type": "array",
       "description": "Faceted document type",
       "items" : {
@@ -149,12 +163,18 @@
       "description": "Source UUID for email"
     },
     "first_author": {
-      "type": "string",
-      "description": "First author name"
+      "type": "array",
+      "description": "First author name(s)",
+      "items": {
+        "type": "string"
+      }
     },
     "first_author_norm": {
-      "type": "string",
-      "description": "First author name, normalized"
+      "type": "array",
+      "description": "First author name, normalized",
+      "items": {
+          "type": "string"
+      }
     },
     "first_author_native": {
       "type": "string",
@@ -204,6 +224,10 @@
     "page_count_uuid": {
       "type": "string",
       "description": "Source UUID for page"
+    },
+    "page_range": {
+      "type": "string",
+      "description": "Page range (first-last) of record if available"
     },
     "volume": {
       "type": "string",
@@ -317,6 +341,49 @@
       "description": "Faceted version of keyword_norm",
       "items": {
         "type": "string"
+      }
+    },
+    "author_facet": {
+      "type": "array",
+      "description": "Faceted list of author names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "doctype_facet_hier": {
+      "type": "array",
+      "description": "Heirarchically faceted list of author names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "classic_bibstem_facet": {
+      "type": "string",
+      "description": "Primary bibstem"
+    },
+    "author_facet_hier": {
+      "type": "array",
+      "description": "Heirarchically faceted list of author names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "first_author_facet_hier": {
+      "type": "array",
+      "description": "Heirarchically faceted list of first author names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entry_date": {
+      "type": "string",
+      "description": "Publisher entry date"
+    },
+    "links_data": {
+      "type": "array",
+      "description": "List of links",
+      "items": {
+        "$ref": "./BibDataLink.json"
       }
     }
   },

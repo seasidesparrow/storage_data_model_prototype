@@ -1,0 +1,35 @@
+{
+  "title": "links_data",
+  "description": "Data schema for bib_data[links_data] field",
+  "type": "object",
+  "properties": {
+    "access": {
+      "type": "string",
+      "description": "Access status, open or otherwise"
+    },
+    "instances": {
+      "type": "string",
+      "description": "Instances"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title"
+    },
+    "link_type": {
+      "type": "string",
+      "description": "link type"
+    },
+    "url": {
+      "type": "string"
+    },
+    "link_uuid": {
+      "type": "string",
+      "description": "Source record UUID for link"
+    }
+  },
+  "required": [
+    "link_type",
+    "url"
+  ],
+  "additionalProperties": false
+}

@@ -3,6 +3,77 @@
   "description": "Data schema for metrics column storage",
   "type": "object",
   "properties": {
+    "an_citations": {
+      "type": "number",
+      "description": "Author normalized citations"
+    },
+    "an_refereed_citations": {
+      "type": "number",
+      "description": "Author normalized refereed citations"
+    },
+    "author_num": {
+      "type": "integer",
+      "description": "Author count"
+    },
+    "citation_num": {
+      "type": "integer",
+      "description": "Number of resolved citations"
+    },
+    "citations": {
+      "type": "array",
+      "description": "List of SciX identifiers for all citing papers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "downloads": {
+      "type": "array",
+      "description": "List of download counts by year",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "modtime": {
+      "type": "string",
+      "description": "Timestamp of last metrics recalculation"
+    },
+    "reads": {
+      "type": "array",
+      "description": "List of read counts by year",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "refereed": {
+      "type": "boolean",
+      "description": "Boolean for 'is refereed'"
+    },
+    "refereed_citation_num": {
+      "type": "integer",
+      "description": "Number of refereed citations to the record if available"
+    },
+    "refereed_citations": {
+      "type": "array",
+      "description": "List of SciX Identifiers for citing papers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_num": {
+      "type": "integer",
+      "description": "Number of references in the article"
+    },
+    "rn_citation_data": {
+      "type": "array",
+      "description": "Normalized reference data",
+      "items": {
+        "$ref": "./MetricsNormRefData.json"
+      }
+    },
+    "rn_citations": {
+      "type": "number",
+      "description": "Reference-normalized citations"
+    }
   },
   "additionalProperties": false
 }

@@ -1,0 +1,42 @@
+{
+  "title": "nonbib_data_links_data",
+  "description": "Data schema for nonbib_data[links_data] field",
+  "type": "object",
+  "properties": {
+    "item_count": {
+      "type": "integer",
+      "description": "Number of items expected in data link if available"
+    },
+    "title": {
+      "type": "array",
+      "description": "Link title",
+      "items": {
+        "type": "string"
+      }
+    },
+    "link_type": {
+      "type": "string",
+      "description": "Link type"
+    },
+    "link_sub_type": {
+      "type": "string",
+      "description": "Link subtype"
+    },
+    "url": {
+      "type": "array",
+      "description": "List of URLs to link(s)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "link_uuid": {
+      "type": "string",
+      "description": "Source record UUID for link"
+    }
+  },
+  "required": [
+    "link_type",
+    "url"
+  ],
+  "additionalProperties": false
+}

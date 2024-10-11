@@ -35,7 +35,14 @@
         "type": "string"
       }
     }, 
-    "aff_facet_heir": {
+    "aff_facet": {
+      "type": "array",
+      "description": "Faceted list of canonical abbrevs",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_facet_hier": {
       "type": "array",
       "description": "Facet heirarchy of canonical abbrevs if available",
       "items": {
@@ -48,7 +55,18 @@
       "items": {
         "type": "string"
       }
-    } 
+    },
+    "author": {
+      "type": "array",
+      "description": "List of author names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "author_uuid": {
+      "type": "string",
+      "description": "Source record UUID for author"
+    }
   },
   "additionalProperties": false
 }

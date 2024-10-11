@@ -3,7 +3,7 @@
   "description": "Data schema for augments record storage",
   "type": "object",
   "properties": {
-    "affils": {
+    "affiliations": {
       "$ref": "./Affiliations.json"
     },
     "funding": {

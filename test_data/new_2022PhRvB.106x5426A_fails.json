@@ -1,0 +1,320 @@
+{
+  "augments": {
+    "affiliations": {
+      "aff": [
+        "Instituto Interdisciplinario de Ciencias B\u00e1sicas-Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas, and Facultad de Ciencias Exactas y Naturales-Universidad Nacional de Cuyo, M5500 Mendoza, Argentina",
+        "Instituto Interdisciplinario de Ciencias B\u00e1sicas-Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas, and Facultad de Ciencias Exactas y Naturales-Universidad Nacional de Cuyo, M5500 Mendoza, Argentina",
+        "Instituto Interdisciplinario de Ciencias B\u00e1sicas-Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas, and Facultad de Ciencias Exactas y Naturales-Universidad Nacional de Cuyo, M5500 Mendoza, Argentina"
+      ],
+      "aff_abbrev": [
+        "-",
+        "-",
+        "-"
+      ],
+      "aff_canonical": [
+        "-",
+        "-",
+        "-"
+      ],
+      "aff_facet": [],
+      "aff_facet_hier": [],
+      "aff_id": [
+        "-",
+        "-",
+        "-"
+      ],
+      "author": [
+        "Arancibia, Leandro M.",
+        "S\u00e1nchez, Cristi\u00e1n G.",
+        "Lobos, Alejandro M."
+      ],
+      "institution": [
+        "-",
+        "-",
+        "-"
+      ]
+    }
+  },
+  "augments_updated": "2024-10-02T09:11:51.445173",
+  "bib_data": {
+    "abstract": "In this work, we study the dynamics and stability of charged solitons in trans-polyacetylene (tPA), and revisit the issue of the stability of these nonlinear excitations under the effect of an external electric field applied parallel to the polymer. Using the formalism of the Su-Schrieffer-Heeger model, we solve the coupled dynamical equations for electrons and classical nuclei at the mean-field level and in the regime of low external electric field E , where the dynamics of the moving soliton is adiabatic. Analyzing observable quantities in real space and frequency space, we identify the microscopic mechanisms triggering the dynamical instabilities of the soliton. In addition, we put forward the definition of a proper quantitative measure of its stability, an issue which to the best of our knowledge has remained an open question. Besides its intrinsic interest from the fundamental point of view, our work might be relevant for the design of novel organic electronic devices based on soliton-mediated transport.",
+    "aff": [
+      "Instituto Interdisciplinario de Ciencias B\u00e1sicas-Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas, and Facultad de Ciencias Exactas y Naturales-Universidad Nacional de Cuyo, M5500 Mendoza, Argentina",
+      "Instituto Interdisciplinario de Ciencias B\u00e1sicas-Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas, and Facultad de Ciencias Exactas y Naturales-Universidad Nacional de Cuyo, M5500 Mendoza, Argentina",
+      "Instituto Interdisciplinario de Ciencias B\u00e1sicas-Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas, and Facultad de Ciencias Exactas y Naturales-Universidad Nacional de Cuyo, M5500 Mendoza, Argentina"
+    ],
+    "arxiv_class": [
+      "cond-mat.mes-hall"
+    ],
+    "author": [
+      "Arancibia, Leandro M.",
+      "S\u00e1nchez, Cristi\u00e1n G.",
+      "Lobos, Alejandro M."
+    ],
+    "author_count": 3,
+    "author_facet": [
+      "Arancibia, L",
+      "Sanchez, C",
+      "Lobos, A"
+    ],
+    "author_facet_hier": [
+      "0/Arancibia, L",
+      "1/Arancibia, L/Arancibia, Leandro M",
+      "0/Sanchez, C",
+      "1/Sanchez, C/S\u00e1nchez, Cristi\u00e1n G",
+      "0/Lobos, A",
+      "1/Lobos, A/Lobos, Alejandro M"
+    ],
+    "author_norm": [
+      "Arancibia, L",
+      "Sanchez, C",
+      "Lobos, A"
+    ],
+    "classic_bibstem": [
+      "PhRvB",
+      "PhRvB.106"
+    ],
+    "classic_bibstem_facet": "PhRvB",
+    "copyright": [
+      "2022: American Physical Society"
+    ],
+    "database": [
+      "physics",
+      "general"
+    ],
+    "date": "2022-12-01T00:00:00.000000Z",
+    "doctype": "article",
+    "doctype_facet_hier": [
+      "0/Article",
+      "1/Article/Journal Article"
+    ],
+    "doi": [
+      "10.1103/PhysRevB.106.245426",
+      "10.48550/arXiv.2207.05173"
+    ],
+    "eid": "245426",
+    "email": [
+      "-",
+      "-",
+      "-"
+    ],
+    "entry_date": "2022-12-28T00:00:00.000000Z",
+    "first_author": ["Arancibia, Leandro M."],
+    "first_author_facet_hier": [
+      "0/Arancibia, L",
+      "1/Arancibia, L/Arancibia, Leandro M"
+    ],
+    "first_author_norm": ["Arancibia, L"],
+    "identifier": [
+      "10.48550/arXiv.2207.05173",
+      "2022arXiv220705173A",
+      "2022PhRvB.106x5426A",
+      "arXiv:2207.05173",
+      "10.1103/PhysRevB.106.245426"
+    ],
+    "issn": [
+      "0163-1829",
+      "1098-0121"
+    ],
+    "issue": "24",
+    "keyword": [
+      "Condensed Matter - Mesoscale and Nanoscale Physics"
+    ],
+    "keyword_norm": [
+      "-"
+    ],
+    "keyword_schema": [
+      "arXiv"
+    ],
+    "links_data": [
+      {
+        "access": "open",
+        "instances": "",
+        "link_type": "preprint",
+        "title": "",
+        "url": "http://arxiv.org/abs/2207.05173"
+      },
+      {
+        "access": "",
+        "instances": "",
+        "link_type": "electr",
+        "title": "",
+        "url": "https://doi.org/10.1103%2FPhysRevB.106.245426"
+      }
+    ],
+    "orcid_pub": [
+      "0000-0003-2029-0343",
+      "-",
+      "-"
+    ],
+    "page": [
+      "245426"
+    ],
+    "pub": "Physical Review B",
+    "pub_raw": "Physical Review B, Volume 106, Issue 24, article id.245426",
+    "pubdate": "2022-12-00",
+    "publisher": "APS",
+    "pubnote": [
+      "14 pages, 9 figures, 1 appendix; Phys. Rev. B, volume 106, year 2022, page 245426; doi:10.1103/PhysRevB.106.245426"
+    ],
+    "title": [
+      "Stability of moving solitons in t r a n s -polyacetylene in an electric field"
+    ],
+    "volume": "106",
+    "year": "2022"
+  },
+  "bib_data_updated": "2024-08-11T10:41:17.623668",
+  "bibcode": "2022PhRvB.106x5426A",
+  "created": "2022-12-29T07:42:28.923553",
+  "datalinks_checksum": "0xfb001caa",
+  "datalinks_processed": "2023-01-03T08:09:05.857024",
+  "fulltext": {
+    "acknowledgements": "ACKNOWLEDGMENTS The authors are grateful to Ariel O. Dobry for useful discussions. C.G.S. acknowledges financial support by the Consejo Nacional de Investigaciones C\u00edentificas y T\u00e9cnicas (CONICET) through Grants No. PIP 112-2017-0100892CO and No. PICT-2017-1605. A.M.L. acknowledges financial support from Agencia through Grant No. PICT-2017-2081, and from Universidad Nacional de Cuyo through Grant No. SIIP-UNCuyoM083.",
+    "body": "[redacted]"
+  },
+  "fulltext_updated": "2022-12-30T08:40:22.951381",
+  "honeycomb_uuid": "06708382-13d9-7945-8000-f6dadfe70d60",
+  "merger_ruleset": "1.0.0",
+  "metrics": {
+    "an_citations": 0.0,
+    "an_refereed_citations": 0.0,
+    "author_num": 3,
+    "citation_num": 0,
+    "citations": [],
+    "downloads": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "modtime": "2024-10-07T08:08:24.143197Z",
+    "reads": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    "refereed": true,
+    "refereed_citation_num": 0,
+    "refereed_citations": [],
+    "reference_num": 33,
+    "rn_citation_data": [],
+    "rn_citations": 0.0
+  },
+  "metrics_checksum": "0x6c4f2679",
+  "metrics_processed": "2024-10-07T12:15:44.316795",
+  "metrics_updated": "2024-10-07T08:08:24.674182",
+  "nonbib_data": {
+    "boost": 0.14,
+    "data_links_rows": [
+      {
+        "link_sub_type": "PUB_HTML",
+        "link_type": "ESOURCE",
+        "title": [
+          ""
+        ],
+        "url": [
+          "https://doi.org/10.1103%2FPhysRevB.106.245426"
+        ]
+      },
+      {
+        "link_sub_type": "EPRINT_HTML",
+        "link_type": "ESOURCE",
+        "title": [
+          ""
+        ],
+        "url": [
+          "https://arxiv.org/abs/2207.05173"
+        ]
+      },
+      {
+        "link_sub_type": "EPRINT_PDF",
+        "link_type": "ESOURCE",
+        "title": [
+          ""
+        ],
+        "url": [
+          "https://arxiv.org/pdf/2207.05173"
+        ]
+      }
+    ],
+    "esource": [
+      "EPRINT_HTML",
+      "EPRINT_PDF",
+      "PUB_HTML"
+    ],
+    "property": [
+      "ARTICLE",
+      "EPRINT_OPENACCESS",
+      "ESOURCE",
+      "OPENACCESS",
+      "REFEREED"
+    ],
+    "read_count": 4,
+    "readers": [
+      "X999999999"
+    ],
+    "reference": [
+      "1939PhRv...56..340F"
+    ]
+  },
+  "nonbib_data_updated": "2024-10-07T08:08:24.67673",
+  "orcid_claims": null,
+  "orcid_claims_updated": null,
+  "processed": "2024-10-07T12:15:44.316795",
+  "scix_id": "SciX:8888-ssww-1111",
+  "solr_checksum": "0x68ac74e",
+  "solr_processed": "2024-10-07T09:14:57.282414",
+  "status": "success",
+  "updated": "2024-10-07T08:08:24.67673"
+}

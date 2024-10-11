@@ -1,0 +1,635 @@
+{
+  "augments": {
+    "affiliations": {
+      "aff": [
+        "Astronomy Department, Yale University, P.O. Box 208101, New Haven, CT 06520-8101",
+        "Astronomy Department, Yale University, P.O. Box 208101, New Haven, CT 06520-8101",
+        "Astronomy Department, Yale University, P.O. Box 208101, New Haven, CT 06520-8101"
+      ],
+      "aff_abbrev": [
+        "Yale U/Dep Ast",
+        "Yale U/Dep Ast",
+        "Yale U/Dep Ast"
+      ],
+      "aff_canonical": [
+        "Yale University, Department of Astronomy",
+        "Yale University, Department of Astronomy",
+        "Yale University, Department of Astronomy"
+      ],
+      "aff_facet_hier": [
+        "0/Yale U",
+        "1/Yale U/Dep Ast"
+      ],
+      "aff_id": [
+        "A00928",
+        "A00928",
+        "A00928"
+      ],
+      "author": [
+        "Templeton, Matthew",
+        "Basu, Sarbani",
+        "Demarque, Pierre"
+      ],
+      "institution": [
+        "Yale U/Dep Ast",
+        "Yale U/Dep Ast",
+        "Yale U/Dep Ast"
+      ]
+    }
+  },
+  "augments_updated": "2024-10-02T02:58:08.063465",
+  "bib_data": {
+    "abstract": "We present a theoretical study of the radially pulsating \u03b4 Scuti and SX Phoenicis variables, concentrating on the blue straggler SX Phoenicis variables found in globular clusters. We have evolved a grid of stellar models with the metal abundance of the globular cluster M55, including models with alpha-enhanced metal abundances, and tested these models for radial pulsations observed in the high-amplitude \u03b4 Scuti and SX Phoenicis stars. Our grid includes models with globally enriched helium content to simulate the effects of stellar collisions and global mixing possible in blue stragglers. We find that global enrichment of helium strongly affects the temperature and luminosity of a given star, but the location of the instability strip blue edge and the slope of the period-luminosity (PL) relation are unchanged. This suggests that the PL relation is not affected by blue straggler formation if blue stragglers are fully mixed stellar mergers. Our blue edges and PL relations are in agreement with other theoretical determinations and also with the observational PL relation of M55, but they are not in agreement with the PL relation previously derived for high-amplitude \u03b4 Scuti stars in the field. Analysis of the double-mode variable, V41, suggests either that the star may not be pulsating in the first and second overtones as claimed or that normal stellar models may not be accurate models of blue straggler stars.",
+    "aff": [
+      "Astronomy Department, Yale University, P.O. Box 208101, New Haven, CT 06520-8101",
+      "Astronomy Department, Yale University, P.O. Box 208101, New Haven, CT 06520-8101",
+      "Astronomy Department, Yale University, P.O. Box 208101, New Haven, CT 06520-8101"
+    ],
+    "author": [
+      "Templeton, Matthew",
+      "Basu, Sarbani",
+      "Demarque, Pierre"
+    ],
+    "author_rank": [
+      1,
+      2,
+      3
+    ],
+    "author_count": 3,
+    "author_facet": [
+      "Templeton, M",
+      "Basu, S",
+      "Demarque, P"
+    ],
+    "author_facet_hier": [
+      "0/Templeton, M",
+      "1/Templeton, M/Templeton, Matthew",
+      "0/Basu, S",
+      "1/Basu, S/Basu, Sarbani",
+      "0/Demarque, P",
+      "1/Demarque, P/Demarque, Pierre"
+    ],
+    "author_norm": [
+      "Templeton, M",
+      "Basu, S",
+      "Demarque, P"
+    ],
+    "classic_bibstem": [
+      "ApJ",
+      "ApJ...576"
+    ],
+    "classic_bibstem_facet": "ApJ",
+    "database": [
+      "astronomy"
+    ],
+    "date": "2002-09-01T00:00:00.000000Z",
+    "doctype": "article",
+    "doctype_facet_hier": [
+      "0/Article",
+      "1/Article/Journal Article"
+    ],
+    "doi": [
+      "10.1086/341805"
+    ],
+    "email": [
+      "mtemplet@astro.yale.edu; demarque@astro.yale.edu; basu@astro.yale.edu",
+      "mtemplet@astro.yale.edu; demarque@astro.yale.edu; basu@astro.yale.edu",
+      "mtemplet@astro.yale.edu; demarque@astro.yale.edu; basu@astro.yale.edu"
+    ],
+    "entry_date": "2002-09-01T00:00:00.000000Z",
+    "first_author": [
+      "Templeton, Matthew"
+    ],
+    "first_author_facet_hier": [
+      "0/Templeton, M",
+      "1/Templeton, M/Templeton, Matthew"
+    ],
+    "first_author_norm": ["Templeton, M"],
+    "identifier": [
+      "2002ApJ...576..963T",
+      "10.1086/341805"
+    ],
+    "issn": [
+      "0004-637X"
+    ],
+    "issue": "2",
+    "keyword": [
+      "Stars: Blue Stragglers",
+      "Stars: Variables: \u03b4 Scuti",
+      "Stars: Distances",
+      "Stars: Individual: Constellation Name: SX Phoenicis",
+      "Stars: Oscillations"
+    ],
+    "keyword_facet": [
+      "stars variables",
+      "stars oscillations"
+    ],
+    "keyword_norm": [
+      "-",
+      "stars variables",
+      "-",
+      "-",
+      "stars oscillations"
+    ],
+    "keyword_schema": [
+      "Astronomy",
+      "Astronomy",
+      "Astronomy",
+      "Astronomy",
+      "Astronomy"
+    ],
+    "links_data": [
+      {
+        "access": "",
+        "instances": "7",
+        "title": "",
+        "link_type": "simbad",
+        "url": "http://$SIMBAD$/simbo.pl?bibcode=2002ApJ...576..963T"
+      },
+      {
+        "access": "open",
+        "instances": "",
+        "title": "",
+        "link_type": "pdf",
+        "url": "https://stacks.iop.org/0004-637X/576/963/pdf"
+      },
+      {
+        "access": "open",
+        "instances": "",
+        "title": "",
+        "link_type": "electr",
+        "url": "https://doi.org/10.1086%2F341805"
+      }
+    ],
+    "orcid_pub": [
+      "-",
+      "-",
+      "-"
+    ],
+    "page": [
+      "963"
+    ],
+    "page_count": 13,
+    "page_range": "963-975",
+    "pub": "The Astrophysical Journal",
+    "pub_raw": "The Astrophysical Journal, Volume 576, Issue 2, pp. 963-975.",
+    "pubdate": "2002-09-00",
+    "publisher": "IOP",
+    "title": [
+      "High-Amplitude \u03b4 Scuti and SX Phoenicis Stars: The Effects of Chemical Composition on Pulsations and the Period-Luminosity Relation"
+    ],
+    "volume": "576",
+    "year": "2002"
+  },
+  "bib_data_updated": "2024-02-18T21:56:21.305282",
+  "created": "2017-10-20T01:33:15.359392",
+  "datalinks_checksum": "0x49928a75",
+  "datalinks_processed": "2022-08-26T09:00:09.659244",
+  "fulltext": {
+    "acknowledgements": "We would like to thank D. Guenther of St. Mary University for allowing us the use of his pulsation code.",
+    "body": "[redacted]"
+  },
+  "fulltext_updated": "2021-12-08T18:39:11.022112",
+  "honeycomb_uuid": "06708379-3dae-7792-8000-a60b5a7229a0",
+  "merger_ruleset": "1.0.0",
+  "metrics": {
+    "an_citations": 1.173913,
+    "an_refereed_citations": 1.0,
+    "author_num": 3,
+    "citation_num": 27,
+    "citations": [
+      "2003AJ....125.3165J",
+      "2003PASP..115..514T",
+      "2004AJ....128..287J",
+      "2004AJ....128..312M",
+      "2004ARA&A..42..385G",
+      "2005PASP..117.1394K",
+      "2006MmSAI..77..223P",
+      "2007A&A...463..789A",
+      "2007AJ....134..926K",
+      "2008RMxAA..44..365A",
+      "2010aste.book.....A",
+      "2011MNRAS.416.2265A",
+      "2012A&A...540A.117C",
+      "2012MNRAS.419..342C",
+      "2012MNRAS.427.1418M",
+      "2013A&A...556A..87C",
+      "2013AJ....145..132C",
+      "2015ASSL..413..277S",
+      "2015JApA...36...33J",
+      "2017A&A...604A.120N",
+      "2019ApJ...887..253C",
+      "2019MNRAS.485.2380M",
+      "2019MNRAS.490.4040A",
+      "2021arXiv211013594Y",
+      "2023AJ....165..188G",
+      "2023AJ....165..190N",
+      "2024MNRAS.tmp.2167M"
+    ],
+    "downloads": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      50,
+      46,
+      32,
+      26,
+      28,
+      26,
+      19,
+      31,
+      39,
+      21,
+      16,
+      14,
+      10,
+      10,
+      12,
+      14,
+      14,
+      5,
+      8,
+      12,
+      7,
+      2
+    ],
+    "modtime": "2024-10-06T07:28:47.296804Z",
+    "reads": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      52,
+      72,
+      70,
+      45,
+      53,
+      45,
+      46,
+      32,
+      36,
+      48,
+      28,
+      39,
+      22,
+      16,
+      13,
+      16,
+      15,
+      36,
+      31,
+      13,
+      16,
+      13,
+      2
+    ],
+    "refereed": true,
+    "refereed_citation_num": 23,
+    "refereed_citations": [
+      "2003AJ....125.3165J",
+      "2003PASP..115..514T",
+      "2004AJ....128..287J",
+      "2004AJ....128..312M",
+      "2004ARA&A..42..385G",
+      "2005PASP..117.1394K",
+      "2007A&A...463..789A",
+      "2007AJ....134..926K",
+      "2008RMxAA..44..365A",
+      "2011MNRAS.416.2265A",
+      "2012A&A...540A.117C",
+      "2012MNRAS.419..342C",
+      "2012MNRAS.427.1418M",
+      "2013A&A...556A..87C",
+      "2013AJ....145..132C",
+      "2015JApA...36...33J",
+      "2017A&A...604A.120N",
+      "2019ApJ...887..253C",
+      "2019MNRAS.485.2380M",
+      "2019MNRAS.490.4040A",
+      "2023AJ....165..188G",
+      "2023AJ....165..190N",
+      "2024MNRAS.tmp.2167M"
+    ],
+    "reference_num": 27,
+    "rn_citation_data": [
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2003AJ....125.3165J",
+        "cityear": 2003,
+        "pubyear": 2002,
+        "ref_norm": 0.030303031
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2003PASP..115..514T",
+        "cityear": 2003,
+        "pubyear": 2002,
+        "ref_norm": 0.0006031363
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2004AJ....128..287J",
+        "cityear": 2004,
+        "pubyear": 2002,
+        "ref_norm": 0.037037037
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2004AJ....128..312M",
+        "cityear": 2004,
+        "pubyear": 2002,
+        "ref_norm": 0.04
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2004ARA&A..42..385G",
+        "cityear": 2004,
+        "pubyear": 2002,
+        "ref_norm": 0.0028735632
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2005PASP..117.1394K",
+        "cityear": 2005,
+        "pubyear": 2002,
+        "ref_norm": 0.024390243
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2006MmSAI..77..223P",
+        "cityear": 2006,
+        "pubyear": 2002,
+        "ref_norm": 0.083333336
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2007A&A...463..789A",
+        "cityear": 2007,
+        "pubyear": 2002,
+        "ref_norm": 0.008130081
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2007AJ....134..926K",
+        "cityear": 2007,
+        "pubyear": 2002,
+        "ref_norm": 0.019607844
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2008RMxAA..44..365A",
+        "cityear": 2008,
+        "pubyear": 2002,
+        "ref_norm": 0.011363637
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2010aste.book.....A",
+        "cityear": 2010,
+        "pubyear": 2002,
+        "ref_norm": 0.00059988
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2011MNRAS.416.2265A",
+        "cityear": 2011,
+        "pubyear": 2002,
+        "ref_norm": 0.016129032
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2012A&A...540A.117C",
+        "cityear": 2012,
+        "pubyear": 2002,
+        "ref_norm": 0.030303031
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2012MNRAS.419..342C",
+        "cityear": 2012,
+        "pubyear": 2002,
+        "ref_norm": 0.007518797
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2012MNRAS.427.1418M",
+        "cityear": 2012,
+        "pubyear": 2002,
+        "ref_norm": 0.0121951215
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2013A&A...556A..87C",
+        "cityear": 2013,
+        "pubyear": 2002,
+        "ref_norm": 0.04761905
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2013AJ....145..132C",
+        "cityear": 2013,
+        "pubyear": 2002,
+        "ref_norm": 0.008928572
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2015ASSL..413..277S",
+        "cityear": 2015,
+        "pubyear": 2002,
+        "ref_norm": 0.02173913
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2015JApA...36...33J",
+        "cityear": 2015,
+        "pubyear": 2002,
+        "ref_norm": 0.005
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2017A&A...604A.120N",
+        "cityear": 2017,
+        "pubyear": 2002,
+        "ref_norm": 0.012048192
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2019ApJ...887..253C",
+        "cityear": 2019,
+        "pubyear": 2002,
+        "ref_norm": 0.014925373
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2019MNRAS.485.2380M",
+        "cityear": 2019,
+        "pubyear": 2002,
+        "ref_norm": 0.009803922
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2019MNRAS.490.4040A",
+        "cityear": 2019,
+        "pubyear": 2002,
+        "ref_norm": 0.004761905
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2021arXiv211013594Y",
+        "cityear": 2021,
+        "pubyear": 2002,
+        "ref_norm": 0.008474576
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2023AJ....165..188G",
+        "cityear": 2023,
+        "pubyear": 2002,
+        "ref_norm": 0.014705882
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2023AJ....165..190N",
+        "cityear": 2023,
+        "pubyear": 2002,
+        "ref_norm": 0.012345679
+      },
+      {
+        "auth_norm": 0.33333334,
+        "scix_id": "2024MNRAS.tmp.2167M",
+        "cityear": 2024,
+        "pubyear": 2002,
+        "ref_norm": 0.006993007
+      }
+    ],
+    "rn_citations": 0.49173304
+  },
+  "metrics_checksum": "0x2945f78e",
+  "metrics_processed": "2024-10-06T08:17:11.039664",
+  "metrics_updated": "2024-10-06T07:28:47.727851",
+  "nonbib_data": {
+    "boost": 0.34,
+    "citation_count": 27,
+    "citation_count_norm": 9.0,
+    "data": [
+      "SIMBAD:7"
+    ],
+    "data_links_rows": [
+      {
+        "link_sub_type": "PUB_HTML",
+        "link_type": "ESOURCE",
+        "title": [
+          ""
+        ],
+        "url": [
+          "https://doi.org/10.1086%2F341805"
+        ]
+      },
+      {
+        "link_sub_type": "PUB_PDF",
+        "link_type": "ESOURCE",
+        "title": [
+          ""
+        ],
+        "url": [
+          "https://stacks.iop.org/0004-637X/576/963/pdf"
+        ]
+      },
+      {
+        "item_count": 7,
+        "link_sub_type": "SIMBAD",
+        "link_type": "DATA",
+        "title": [
+          "SIMBAD Objects (7)"
+        ],
+        "url": [
+          "http://$SIMBAD$/simbo.pl?bibcode=2002ApJ...576..963T"
+        ]
+      }
+    ],
+    "esource": [
+      "PUB_HTML",
+      "PUB_PDF"
+    ],
+    "norm_cites": 7236,
+    "property": [
+      "ARTICLE",
+      "DATA",
+      "ESOURCE",
+      "OPENACCESS",
+      "PUB_OPENACCESS",
+      "REFEREED"
+    ],
+    "read_count": 23,
+    "reference": [
+      "1958ApJ...128..174B",
+      "1984ApJ...284..250C",
+      "1990ApJ...363..227P",
+      "1993oee..conf...15G",
+      "1994AcA....44..317U",
+      "1994ApJ...422..400G",
+      "1995ARA&A..33..133B",
+      "1995ASPC...78...63A",
+      "1995ApJ...441..865C",
+      "1996A&A...312..463P",
+      "1996ApJ...456..902R",
+      "1996ApJ...464..943I",
+      "1997AJ....114.1592T",
+      "1997ApJ...487..290S",
+      "1997PASP..109.1221M",
+      "1998A&AS..130...65L",
+      "1999A&A...352..547P",
+      "2000A&A...359..597R",
+      "2000ApJ...536..798A",
+      "2000PASP..112.1096M",
+      "2000PhDT.......127T",
+      "2001A&A...366..178R",
+      "2001A&A...367..148P",
+      "2001ApJ...554.1124S",
+      "2001ApJ...563..999T",
+      "2001ApJS..136..417Y",
+      "2002ApJ...568..939L"
+    ],
+    "simbad_objects": [
+      "1113106 dS*",
+      "1170616 SX*",
+      "2397033 SX*",
+      "2397114 GlC",
+      "2600853 dS*",
+      "2996913 G",
+      "3375707 GlC"
+    ],
+    "total_link_counts": 7
+  },
+  "nonbib_data_updated": "2024-10-06T07:28:47.583101",
+  "orcid_claims": {
+    "authors": [
+      "Templeton, Matthew",
+      "Basu, Sarbani",
+      "Demarque, Pierre"
+    ],
+    "unverified": [
+      "-",
+      "-",
+      "-"
+    ],
+    "verified": [
+      "0000-0003-1918-0622",
+      "0000-0002-6163-3472",
+      "-"
+    ]
+  },
+  "orcid_claims_updated": "2021-06-10T21:00:59.682851",
+  "processed": "2024-10-06T08:17:11.039664",
+  "scix_id": "SciX:2233-qqbb-7788",
+  "solr_checksum": "0x5b2d73d9",
+  "solr_processed": "2024-10-06T08:05:06.692835",
+  "status": "success",
+  "updated": "2024-10-06T07:28:47.727851"
+}

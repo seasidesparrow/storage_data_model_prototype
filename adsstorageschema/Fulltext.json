@@ -1,0 +1,20 @@
+{
+  "title": "Fulltext",
+  "description": "Data schema for fulltext data",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "string",
+      "description": "Extracted fulltext body from source"
+    },
+    "acknowledgements": {
+      "type": "string",
+      "description": "Acknowledgements from fulltext body if available"
+    },
+    "fulltext_uuid": {
+      "type": "string",
+      "description": "Source UUID for fulltext body+acknowledgements"
+    }
+  },
+  "additionalProperties": false
+}

@@ -3,6 +3,79 @@
   "description": "Data schema for nonbib_data column storage",
   "type": "object",
   "properties": {
+    "boost": {
+      "type": "number",
+      "description": "Classic boost factor"
+    },
+    "citation_count": {
+      "type": "integer",
+      "description": "Count of citations"
+    },
+    "citation_count_norm": {
+      "type": "integer",
+      "description": "Normalized count of citations"
+    },
+    "data": {
+      "type": "array",
+      "description": "List of (datasource:count) if available",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_links_rows": {
+      "type": "array",
+      "description": "List of data links if available",
+      "items": {
+        "$ref": "./NonBibDataLink.json"
+      }
+    },
+    "esource": {
+      "type": "array",
+      "description": "List of types of electronic fulltext sources",
+      "items": {
+        "type": "string"
+      }
+    },
+    "norm_cites": {
+      "type": "integer",
+      "description": "Normalized citations"
+    },
+    "property": {
+      "type": "array",
+      "description": "List of properties of the record",
+      "items": {
+        "type": "string"
+      }
+    },
+    "readers": {
+      "type": "array",
+      "description": "List of reader identifiers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "read_count": {
+      "type": "integer",
+      "description": "Number of tracked reads"
+    },
+    "reference": {
+      "type": "array",
+      "description": "List of SciX identifiers for resolved references",
+      "items": {
+        "type": "string"
+      }
+    },
+    "simbad_objects": {
+      "type": "array",
+      "description": "List of SIMBAD object identifiers, if available",
+      "items": {
+        "type": "string"
+      }
+    },
+    "total_link_counts": {
+      "type": "integer",
+      "description": "Number of data links if available"
+    }
   },
   "additionalProperties": false
 }

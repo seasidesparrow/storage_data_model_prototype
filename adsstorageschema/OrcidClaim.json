@@ -1,0 +1,30 @@
+{
+  "title": "OrcidClaim",
+  "description": "Data schema for document[orcid_claims]",
+  "type": "object",
+  "properties": {
+    "authors": {
+      "type": "array",
+      "description": "List of authors of the record",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unverified": {
+      "type": "array",
+      "description": "List of authors' unverified Orcids",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verified": {
+      "type": "array",
+      "description": "List of authors' verified Orcids",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

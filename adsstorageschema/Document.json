@@ -6,10 +6,6 @@
   "properties": {
 
     "$comment": "Record status, IDs and primary keys",
-    "id": {
-      "type": "integer",
-      "description": "postgres primary key for the record (integer)"
-    },
     "honeycomb_uuid": {
       "type": "string",
       "description": "Honeycomb Record UUID"
@@ -17,6 +13,14 @@
     "status": {
       "type": "string",
       "description": "Solr index status"
+    },
+    "solr_processed": {
+      "type": "string",
+      "description": "Timestamp of last solr processing"
+    },
+    "solr_checksum": {
+      "type": "string",
+      "description": "Validation checksum of solr data"
     },
     "bibcode": {
       "type": "string",
@@ -44,15 +48,27 @@
       "$ref": "./BibData.json"
     },
     "bib_data_updated": {
-      "$ref": "./TimeStamp.json"
+      "type": "string",
+      "description": "Timestamp of last bib_data update"
     },
 
-    "$comment": "augments column",
+    "$comment": "augments columns (affiliations and funding)",
     "augments": {
       "$ref": "./Augments.json"
     },
     "augments_updated": {
-      "$ref": "./TimeStamp.json"
+      "type": "string",
+      "description": "Timestamp of last augments update"
+    },
+
+    "$comment": "datalinks column",
+    "datalinks_checksum": {
+      "type": "string",
+      "description": "Validation checksum for datalinks"
+    },
+    "datalinks_processed": {
+      "type": "string",
+      "description": "Timestamp of last datalinks processing"
     },
 
     "$comment": "fulltext column",
@@ -60,7 +76,8 @@
       "$ref": "./Fulltext.json"
     },
     "fulltext_updated": {
-      "$ref": "./TimeStamp.json"
+      "type": "string",
+      "description": "Timestamp of last fulltext update"
     },
 
     "$comment": "nonbib_data column",
@@ -68,7 +85,17 @@
       "$ref": "./NonBibData.json"
     },
     "nonbib_data_updated": {
-      "$ref": "./TimeStamp.json"
+      "type": "string",
+      "description": "Timestamp of last nonbib_data update"
+    },
+
+    "$comment": "orcid_claims column",
+    "orcid_claims": {
+      "$ref": "./OrcidClaim.json"
+    },
+    "orcid_claims_updated": {
+      "type": "string",
+      "description": "Timestamp of last orcid_claims update"
     },
 
     "$comment": "metrics column",
@@ -76,13 +103,35 @@
       "$ref": "./Metrics.json"
     },
     "metrics_updated": {
-      "$ref": "./TimeStamp.json"
+      "type": "string",
+      "description": "Timestamp of last metrics data update"
+    },
+    "metrics_processed": {
+      "type": "string",
+      "description": "Timestamp of last metrics computation"
+    },
+    "metrics_checksum": {
+      "type": "string",
+      "description": "Validation checksum for metrics data"
+    },
+    "created": {
+      "type": "string",
+      "description": "Creation timestamp"
+    },
+    "processed": {
+      "type": "string",
+      "description": "Processing timestamp"
+    },
+    "updated": {
+      "type": "string",
+      "description": "Update timestamp"
     }
   },
   "required": [
     "scix_id",
     "honeycomb_uuid",
-    "bib_data"
+    "bib_data",
+    "merger_ruleset"
   ],
   "additionalProperties": false
 }
