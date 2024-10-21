@@ -1,0 +1,19 @@
+{
+  "title": "Caption",
+  "description": "Data schema for figure and table caption storage",
+  "type": "object",
+  "properties": {
+    "caption_type": {
+      "type": "string",
+      "description": "Subtype of captions (e.g. 'figure', 'table')"
+    },
+    "caption_list": {
+      "type": "array",
+      "description": "List of captions",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -38,6 +38,13 @@
       "type": "string",
       "description": "Source record UUID for scix_id"
     },
+    "origin": {
+      "type": "array",
+      "description": "List of origins/publishers for metadata pieces (e.g. STI, CROSSREF, ELSEVIER)",
+      "items": {
+        "type": "string"
+      }
+    },
     "merger_ruleset": {
       "type": "string",
       "description": "Version ID of data piece merger rules"

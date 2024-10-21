@@ -1,0 +1,23 @@
+{
+  "title": "AstronomicalObject",
+  "description": "Data schema for astronomical object storage",
+  "type": "object",
+  "properties": {
+    "ast_object_origin": {
+      "type": "string",
+      "description": "Origin of object list"
+    },
+    "ast_objects": {
+      "type": "array",
+      "description": "List of object names/identifiers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ast_object_count": {
+      "type": "integer",
+      "description": "Number of objects from source"
+    }
+  },
+  "additionalProperties": false
+}

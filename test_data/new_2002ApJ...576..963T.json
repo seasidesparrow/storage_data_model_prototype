@@ -596,14 +596,20 @@
       "2001ApJS..136..417Y",
       "2002ApJ...568..939L"
     ],
-    "simbad_objects": [
-      "1113106 dS*",
-      "1170616 SX*",
-      "2397033 SX*",
-      "2397114 GlC",
-      "2600853 dS*",
-      "2996913 G",
-      "3375707 GlC"
+    "astronomical_objects": [
+      {
+        "ast_object_origin": "SIMBAD",
+        "ast_objects": [
+          "1113106 dS*",
+          "1170616 SX*",
+          "2397033 SX*",
+          "2397114 GlC",
+          "2600853 dS*",
+          "2996913 G",
+          "3375707 GlC"
+        ],
+        "ast_object_count": 7
+      }
     ],
     "total_link_counts": 7
   },

@@ -65,11 +65,11 @@
         "type": "string"
       }
     },
-    "simbad_objects": {
+    "astronomical_objects": {
       "type": "array",
-      "description": "List of SIMBAD object identifiers, if available",
+      "description": "List of AstronomicalObject objects if available",
       "items": {
-        "type": "string"
+        "$ref": "./AstronomicalObject.json"
       }
     },
     "total_link_counts": {

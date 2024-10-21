@@ -11,9 +11,23 @@
       "type": "string",
       "description": "Acknowledgements from fulltext body if available"
     },
+    "footnotes": {
+      "type": "array",
+      "description": "List of footnotes extracted from fulltext if any",
+      "items": {
+        "type": "string"
+      }
+    },
+    "captions": {
+      "type": "array",
+      "description": "List of figure and table caption data extracted from fulltext if any",
+      "items": {
+        "$ref": "./Caption.json"
+      }
+    },
     "fulltext_uuid": {
       "type": "string",
-      "description": "Source UUID for fulltext body+acknowledgements"
+      "description": "Source UUID for fulltext data"
     }
   },
   "additionalProperties": false

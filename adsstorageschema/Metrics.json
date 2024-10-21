@@ -5,11 +5,11 @@
   "properties": {
     "an_citations": {
       "type": "number",
-      "description": "Author normalized citations"
+      "description": "Age normalized citations"
     },
     "an_refereed_citations": {
       "type": "number",
-      "description": "Author normalized refereed citations"
+      "description": "Age normalized refereed citations"
     },
     "author_num": {
       "type": "integer",

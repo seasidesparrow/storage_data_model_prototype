@@ -56,6 +56,27 @@
         "type": "string"
       }
     },
+    "aff_country": {
+      "type": "array",
+      "description": "Country for canonical id if available",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_country_facet": {
+      "type": "array",
+      "description": "Faceted list of canonical id countries",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_country_facet_hier": {
+      "type": "array",
+      "description": "Facet heirarchy of canonical id countries",
+      "items": {
+        "type": "string"
+      }
+    },
     "author": {
       "type": "array",
       "description": "List of author names",
